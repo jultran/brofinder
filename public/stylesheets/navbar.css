@@ -1,0 +1,47 @@
+﻿.navbar {
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    
+    height: 10vh;
+    min-height: 10vh;
+    max-height: 10vh;
+    width: 100%;
+
+    background-color: #8072A1;
+}
+
+.navbar > ul#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    overflow: hidden;
+    background-color: #8072A1;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 100%;
+    max-height: 100%;
+}
+
+.navbar > ul#navbar > li {
+    height: 75%;
+}
+
+.navbar > ul#navbar > li > button {
+    background-color: transparent;
+    border: none;
+    color: lightgray;
+    padding: 0;
+    cursor: pointer;
+    vertical-align: middle;
+
+    display:inline-flex;
+    font-size: 7.5vh;
+}
+
+.navbar > ul#navbar > li > img {
+    width: auto;
+    height: 100%;
+}

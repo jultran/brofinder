@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<% include components/head.ejs %>
+	</head>
+	<body>
+		<article>
+			<% include components/navbar.ejs %>
+
+			<% include components/map.ejs %>
+
+			<div id="group-footer" class="group-footer">
+				<ul>
+					<li><button><i class="fa fa-arrow-left"></i></button></li>
+					<% groupMembers.forEach(function(member) { %>
+						<li><div class="shape"><%= member.initials %></div></li>
+					<% }); %>
+				</ul>
+			</div>
+		</article>
+		<% include components/forms.ejs %>
+	</body>
+	<% include components/script %>
+</html>

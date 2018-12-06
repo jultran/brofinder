@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<% include components/head.ejs %>
+	</head>
+	<body>
+		<article>
+			<% include components/navbar.ejs %>	
+
+			<ul id="groupList" class="group-buttons-list">
+				<% if(groups.length > 0){ %>
+					<% groups.forEach(function(group) { %>
+						<li><button><a href='/group/<%= group.name.replace(/\s+/g, '') %>'><%= group.name %></a></button></li>
+					<% }); %>
+				<% } else{ %>  
+					<li><p>Not in any groups, join or create a group.</p></li>
+				<% } %>
+			</ul>
+		</article>
+		<% include components/forms.ejs %>
+	</body>
+	<% include components/script %>
+</html>

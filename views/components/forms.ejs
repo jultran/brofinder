@@ -1,0 +1,42 @@
+﻿<div id="create-group-form" class="form-container">
+  <form class="create-group-form">
+		<h1>Create Group</h1>
+
+		<label for="groupName">
+			<b>Group Name</b>
+		</label>
+		<input type="text" placeholder="Enter Group Name" name="groupName" required />
+
+		<label for="groupPsw">
+			<b>Password</b>
+		</label>
+		<input type="password" placeholder="Enter Password" name="psw" required />
+          
+		<label for="groupPswConfirmation">
+			<b>Confirm Password</b>
+		</label>
+		<input type="password" placeholder="Enter Password" name="psw" required />
+
+		<button type="submit" class="form-button">Create Group</button>
+		<button type="button" class="form-button cancel" onclick="hideForm(this)" formId="create-group-form">Close</button>
+  </form>
+</div>
+
+<div id="join-group-form" class="form-container">
+  <form class="join-group-form">
+		<h1>Join Group</h1>
+
+		<label for="groupName">
+			<b>Group Name</b>
+		</label>
+		<input type="text" placeholder="Enter Group Name" name="groupName" required />
+
+		<label for="groupPsw">
+			<b>Password</b>
+		</label>
+		<input type="password" placeholder="Enter Password" name="psw" required />
+
+		<button type="submit" class="form-button">Join Group</button>
+		<button type="button" class="form-button cancel" onclick="hideForm(this)" formId="join-group-form">Close</button>
+	</form>
+</div>

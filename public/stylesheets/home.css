@@ -1,0 +1,44 @@
+﻿.group-buttons-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-top: 1vh;
+    width: 95vw;
+}
+
+.group-buttons-list > li {
+    display: list-item;
+
+    width: 15vw;
+    height: 5vh;
+
+    padding: 1vh 0 1vh 0;
+}
+
+.group-buttons-list > li > p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.group-buttons-list > li > button {
+    background-color: #8072A1;
+    color: white;
+    cursor: pointer;
+
+    height: 100%;
+    width: 100%;
+    border-radius: 1vh;
+    border: 0;
+    padding: 0;
+
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.group-buttons-list > li > button > a {
+    text-decoration: none;
+    color: white;
+}

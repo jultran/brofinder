@@ -1,0 +1,33 @@
+﻿.sidenav {
+    height: 100%;
+    width: 25vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.85;
+    overflow-x: hidden;
+    padding-top: 10vh;
+
+    display: none;
+}
+
+.sidenav a {
+    padding: 2vh 2vw 2vh 2vw;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 3em;
+}

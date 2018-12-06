@@ -1,0 +1,23 @@
+﻿@import url(navbar.css);
+@import url(home.css);
+@import url(group.css);
+@import url(sidebar.css);
+@import url(form.css);
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    position: relative;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+
+    overflow: hidden;
+}
