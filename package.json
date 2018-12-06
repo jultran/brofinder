@@ -18,5 +18,14 @@
     "morgan": "^1.7.0"
   },
   "main": "app.js",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jultran/brofinder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jultran/brofinder/issues"
+  },
+  "homepage": "https://github.com/jultran/brofinder#readme"
 }
